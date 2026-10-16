@@ -1,0 +1,17 @@
+MEETING C: CATALOGUE FOLLOW-UP AND SCOPE CHANGES
+Date: 2026-09-23
+Participants: Maya Chen (Client, Head of Digital), Jordan Lee (Client, Product Manager), Sam Rivera (Consultant)
+
+Sam: Let us confirm the catalogue scope from Meeting A and capture the changes.
+Maya: We still want better search, the combined brand, price, availability, and compatibility filters, and the responsive product cards.
+Jordan: Add one more filter: customers must be able to filter by delivery time, such as next-day or standard delivery.
+Sam: That is a new requirement. Do you have delivery-time data for every product?
+Jordan: Not yet. The operations team can provide it, but it may arrive after development starts.
+Maya: On mobile we changed our mind about filters. Do not use a full-screen filter panel. Use a bottom sheet that opens over the catalogue, and keep the selected filters visible as removable chips above the results.
+Sam: Does the browsing-session persistence remain?
+Jordan: Yes, preserve the filter state when returning from a product detail page.
+Maya: We also need to remove the synonym dictionary deliverable from this phase. We will start with exact model-number and product-name matching because the dictionary needs a separate content project.
+Sam: So search improvement remains, but synonym support is removed and exact matching is the accepted first step.
+Jordan: Correct. We still want the improved results page, keyboard access, and accessible contrast.
+Sam: Decision noted: add delivery-time filtering, modify mobile filters from full-screen panel to bottom sheet with chips, and remove the synonym dictionary from the approved scope.
+Maya: Please produce a revised diff and do not include checkout or payment work from Meeting B in this catalogue scope.

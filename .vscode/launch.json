@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Knowledge Brain API (debug)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.api:app", "--host", "127.0.0.1", "--port", "8000"],
+      "cwd": "${workspaceFolder}/task1-knowledge-brain",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/task1-knowledge-brain"
+      },
+      "justMyCode": true,
+      "console": "integratedTerminal",
+      "preLaunchTask": "knowledge-brain-api: test"
+    }
+  ]
+}

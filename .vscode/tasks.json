@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "knowledge-brain-api: test",
+      "type": "shell",
+      "command": "python -m pytest -q",
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "runOptions": {
+        "instanceLimit": 1,
+        "instancePolicy": "silent"
+      }
+    },
+    {
+      "label": "knowledge-brain-api: uvicorn",
+      "type": "shell",
+      "command": "python -m uvicorn app.api:app --host 127.0.0.1 --port 8000 --reload",
+      "options": {
+        "cwd": "${workspaceFolder}/task1-knowledge-brain"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "python",
+        "pattern": {
+          "regexp": "^(.*)$",
+          "message": 1
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Uvicorn running on",
+          "endsPattern": "Uvicorn running on http://127\\.0\\.0\\.1:8000"
+        }
+      },
+      "runOptions": {
+        "instanceLimit": 1,
+        "instancePolicy": "silent"
+      }
+    }
+  ]
+}

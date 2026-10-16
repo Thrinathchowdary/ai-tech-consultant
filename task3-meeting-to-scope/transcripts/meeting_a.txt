@@ -1,0 +1,22 @@
+MEETING A: WEBSITE DISCOVERY AND MOBILE EXPERIENCE
+Date: 2026-09-14
+Participants: Maya Chen (Client, Head of Digital), Jordan Lee (Client, Product Manager), Sam Rivera (Consultant)
+
+Sam: Thanks for making time. What would make this project successful for your team?
+Maya: Our website works, but visitors struggle to find products. We want a cleaner catalogue experience and a better path from landing page to product detail.
+Jordan: Product search is the biggest complaint. People type a model number or a plain-language term and get too many unrelated results.
+Sam: So the first requirement is improved product search. Do you need synonyms or just exact matching?
+Jordan: Synonyms would help. For example, "laptop stand" should also find "notebook riser". We can supply an initial synonym list.
+Maya: We also need filters on the catalogue. Customers should filter by brand, price range, availability, and compatibility. The filters must work together rather than resetting each other.
+Sam: Should filter state remain when someone opens a product and returns to the catalogue?
+Jordan: Yes, preserve the selected filters during that browsing session.
+Sam: Let us talk about mobile UX.
+Maya: On phones the current navigation takes too much space. The menu should become a compact drawer, and the filter controls should open in a full-screen panel.
+Jordan: Product cards also need larger tap targets. We want two cards per row where the screen permits, with the product image and price still readable.
+Sam: Are there brand or accessibility constraints?
+Maya: Keep our existing colours and logo. Text must meet our accessibility contrast standard, and keyboard users must be able to reach search and filters.
+Sam: What is explicitly outside this phase?
+Maya: No checkout changes in this phase. We are not redesigning product detail content beyond responsive spacing and the search-to-detail link.
+Sam: I will document an implementation scope and a list of assumptions. You will provide the synonym list, filter values, product data examples, and mobile breakpoints.
+Jordan: Correct. We approve the direction, subject to reviewing the written scope and estimate.
+Sam: Decision noted: keep the existing visual identity, prioritize catalogue discovery, and treat checkout as a later phase.

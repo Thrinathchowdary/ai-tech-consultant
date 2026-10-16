@@ -1,0 +1,21 @@
+MEETING B: CHECKOUT AND PAYMENT WORKFLOW
+Date: 2026-09-16
+Participants: Maya Chen (Client, Head of Digital), Priya Nair (Client, Finance), Sam Rivera (Consultant)
+
+Sam: Today we are focusing on the commerce workflow that was excluded from the discovery call.
+Maya: The current checkout is a single long form. Mobile customers abandon it because they cannot tell what step they are on.
+Priya: We need a three-step checkout: customer details, delivery, then payment and review. The order summary should remain visible on desktop and be collapsible on mobile.
+Sam: Which fields are mandatory?
+Priya: Name, email, phone, delivery address, and billing address when it differs. We need validation before the customer advances to the next step.
+Maya: We also need guest checkout. An account may be offered after payment, but it cannot be required to place an order.
+Sam: What are the payment requirements?
+Priya: Integrate Stripe for cards and Apple Pay if the account is eligible. We do not want card numbers stored by the website; hosted payment fields are preferred.
+Sam: How should failed payments behave?
+Priya: Keep the cart and show a clear retry message. Never create an order until payment is confirmed. A successful payment should produce an order confirmation email.
+Maya: We also have a rule for restricted products. If a cart contains an age-restricted product, the customer must confirm they are over 18 before payment.
+Sam: Are discount codes in scope?
+Priya: Yes, one valid code per order. The total should recalculate before payment and the code should be rejected if expired.
+Sam: What are the operational dependencies?
+Priya: Stripe credentials, tax configuration, shipping rates, confirmation email templates, and someone from finance to test reconciliation.
+Sam: Decision noted: use hosted Stripe fields, guest checkout, three steps, and hold order creation until payment confirmation.
+Maya: Please keep the catalogue improvements from Meeting A separate. We will approve separate estimates.

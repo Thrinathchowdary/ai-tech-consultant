@@ -1,0 +1,29 @@
+{
+  "name": "task2-inbox-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inbox Agent for the AI Tech Consultant capstone",
+  "main": "dist/src/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server.js",
+    "dev": "ts-node src/server.ts",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.68.0",
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.7.2",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

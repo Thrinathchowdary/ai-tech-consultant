@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "category": "how-to",
+    "subject": "How do I add a team member?",
+    "body": "I just upgraded our account and need to invite two colleagues. Where can I add them?"
+  },
+  {
+    "id": 2,
+    "category": "how-to",
+    "subject": "Setting up the dashboard",
+    "body": "Could you send me the steps for setting up my first dashboard and choosing the right widgets?"
+  },
+  {
+    "id": 3,
+    "category": "how-to",
+    "subject": "Where can I change notification settings?",
+    "body": "I would like email alerts for new activity but not for every comment. How do I configure that?"
+  },
+  {
+    "id": 4,
+    "category": "how-to",
+    "subject": "How can I export a report?",
+    "body": "I need a CSV copy of this month's activity for our internal review. What is the export process?"
+  },
+  {
+    "id": 5,
+    "category": "how-to",
+    "subject": "Adding our company logo",
+    "body": "What file types and dimensions are supported for uploading our logo to the account?"
+  },
+  {
+    "id": 6,
+    "category": "how-to",
+    "subject": "Can I connect Google Calendar?",
+    "body": "I want project deadlines to appear on my calendar. How do I enable the calendar integration?"
+  },
+  {
+    "id": 7,
+    "category": "how-to",
+    "subject": "How do I change my password?",
+    "body": "I am signed in, but I cannot find the option to update my password."
+  },
+  {
+    "id": 8,
+    "category": "how-to",
+    "subject": "Creating a saved view",
+    "body": "Please explain how to save a filtered view so the whole operations team can reuse it."
+  },
+  {
+    "id": 9,
+    "category": "how-to",
+    "subject": "Where are invoices located?",
+    "body": "I need to download last quarter's invoices for accounting. Which menu contains them?"
+  },
+  {
+    "id": 10,
+    "category": "how-to",
+    "subject": "How can I assign an owner?",
+    "body": "How do I assign a new ticket to a specific member of our support team?"
+  },
+  {
+    "id": 11,
+    "category": "how-to",
+    "subject": "Enable two-factor authentication",
+    "body": "I would like to turn on two-factor authentication for my user profile. What are the steps?"
+  },
+  {
+    "id": 12,
+    "category": "how-to",
+    "subject": "How do I archive a project?",
+    "body": "One completed project is cluttering our workspace. How can an administrator archive it?"
+  },
+  {
+    "id": 13,
+    "category": "troubleshooting",
+    "subject": "Dashboard will not load",
+    "body": "The dashboard has shown a spinning loader for ten minutes in Chrome. I have already refreshed twice."
+  },
+  {
+    "id": 14,
+    "category": "troubleshooting",
+    "subject": "CSV export fails",
+    "body": "Every export ends with an error message after I select a date range. The report never downloads."
+  },
+  {
+    "id": 15,
+    "category": "troubleshooting",
+    "subject": "Invitations are not arriving",
+    "body": "Three teammates were invited yesterday but none received an email. Their addresses are correct."
+  },
+  {
+    "id": 16,
+    "category": "troubleshooting",
+    "subject": "Calendar integration stopped syncing",
+    "body": "Our calendar was working last week but new deadlines are no longer appearing."
+  },
+  {
+    "id": 17,
+    "category": "troubleshooting",
+    "subject": "I cannot sign in",
+    "body": "My password is accepted and then the page returns me to the login screen. This blocks my work."
+  },
+  {
+    "id": 18,
+    "category": "troubleshooting",
+    "subject": "Reports show the wrong timezone",
+    "body": "The activity timestamps are three hours ahead of our office. How can we correct the timezone?"
+  },
+  {
+    "id": 19,
+    "category": "troubleshooting",
+    "subject": "File upload is stuck",
+    "body": "A 12 MB PDF has been processing for half an hour and the upload status has not changed."
+  },
+  {
+    "id": 20,
+    "category": "troubleshooting",
+    "subject": "Mobile notifications stopped",
+    "body": "Push notifications stopped arriving on my iPhone even though they are enabled in settings."
+  },
+  {
+    "id": 21,
+    "category": "troubleshooting",
+    "subject": "Search returns no results",
+    "body": "Searching for a customer name that is definitely present returns an empty result every time."
+  },
+  {
+    "id": 22,
+    "category": "troubleshooting",
+    "subject": "Our team cannot access the workspace",
+    "body": "Several users received an access denied message this morning. We are blocked from today's work."
+  },
+  {
+    "id": 23,
+    "category": "follow-up",
+    "subject": "Following up on duplicate records",
+    "body": "I am following up on the duplicate records issue reported after our import. Do you have an update from the team?"
+  },
+  {
+    "id": 24,
+    "category": "project-request",
+    "subject": "Request for a custom integration",
+    "body": "We would like to connect the platform to our internal CRM. Can someone discuss the API and project scope?"
+  },
+  {
+    "id": 25,
+    "category": "project-request",
+    "subject": "Migration assistance needed",
+    "body": "Our team is moving from a legacy tool and needs help importing about 40,000 historical records."
+  },
+  {
+    "id": 26,
+    "category": "project-request",
+    "subject": "Build a branded customer portal",
+    "body": "Can your team build a customer-facing portal with our branding and a restricted document area?"
+  },
+  {
+    "id": 27,
+    "category": "project-request",
+    "subject": "Implementation workshop",
+    "body": "We are starting next month and would like to schedule an implementation workshop for our administrators."
+  },
+  {
+    "id": 28,
+    "category": "project-request",
+    "subject": "Custom reporting project",
+    "body": "We need a report combining usage, response time, and revenue data. Please tell us how a custom project works."
+  },
+  {
+    "id": 29,
+    "category": "project-request",
+    "subject": "Data retention consultation",
+    "body": "Could an expert review our retention requirements and recommend a configuration for our regulated team?"
+  },
+  {
+    "id": 30,
+    "category": "refund-cancellation",
+    "subject": "Please cancel our subscription",
+    "body": "Our team no longer needs the service. Please cancel the subscription before the next renewal."
+  },
+  {
+    "id": 31,
+    "category": "refund-cancellation",
+    "subject": "Requesting a refund for this month",
+    "body": "We were charged this month even though the account has not been used. Can you refund the charge?"
+  },
+  {
+    "id": 32,
+    "category": "refund-cancellation",
+    "subject": "I was charged twice",
+    "body": "There are two identical charges on my card from yesterday. Please investigate and return the duplicate amount."
+  },
+  {
+    "id": 33,
+    "category": "refund-cancellation",
+    "subject": "Cancel an accidental upgrade",
+    "body": "A teammate upgraded us by mistake this morning. We need the upgrade reversed and the extra charge refunded."
+  },
+  {
+    "id": 34,
+    "category": "refund-cancellation",
+    "subject": "Can I end the annual plan early?",
+    "body": "Our circumstances changed and we need to cancel our annual plan before it ends. What options do we have?"
+  },
+  {
+    "id": 35,
+    "category": "refund-cancellation",
+    "subject": "Chargeback warning",
+    "body": "I do not recognize this renewal. If it is not reversed immediately, I will dispute it with my bank."
+  },
+  {
+    "id": 36,
+    "category": "complaint",
+    "subject": "Very disappointed with support",
+    "body": "We have waited four days for a response to a problem that is affecting our customers. This is unacceptable."
+  },
+  {
+    "id": 37,
+    "category": "complaint",
+    "subject": "Your service caused us to miss a deadline",
+    "body": "The outage yesterday prevented our team from delivering a report. We need a serious explanation."
+  },
+  {
+    "id": 38,
+    "category": "complaint",
+    "subject": "Unacceptable billing experience",
+    "body": "We were promised clear billing but the invoice contains unexplained fees. Please have a manager contact me."
+  },
+  {
+    "id": 39,
+    "category": "complaint",
+    "subject": "I want to file a formal complaint",
+    "body": "Please tell me how to submit a formal complaint about the way our account issue was handled."
+  },
+  {
+    "id": 40,
+    "category": "complaint",
+    "subject": "Considering legal action",
+    "body": "Your repeated failures have caused losses for our business. We are discussing legal action unless this is resolved."
+  },
+  {
+    "id": 41,
+    "category": "complaint",
+    "subject": "The onboarding promised more",
+    "body": "The sales process described features we cannot find. I am extremely frustrated and need this escalated."
+  },
+  {
+    "id": 42,
+    "category": "quote",
+    "subject": "Quote for 25 users",
+    "body": "Could you provide pricing for 25 users on an annual plan, including any onboarding fees?"
+  },
+  {
+    "id": 43,
+    "category": "quote",
+    "subject": "Estimate for enterprise plan",
+    "body": "We have about 150 users and need SSO. Please send an estimate and list the enterprise inclusions."
+  },
+  {
+    "id": 44,
+    "category": "quote",
+    "subject": "Pricing for a custom integration",
+    "body": "What would a CRM integration project typically cost, and how long does it usually take?"
+  },
+  {
+    "id": 45,
+    "category": "quote",
+    "subject": "Budgetary quote for next year",
+    "body": "We are preparing next year's budget. Please send a non-binding quote for 60 seats."
+  },
+  {
+    "id": 46,
+    "category": "quote",
+    "subject": "Can you quote priority support?",
+    "body": "Please share the price and terms for adding priority support to our current subscription."
+  },
+  {
+    "id": 47,
+    "category": "follow-up",
+    "subject": "Following up on ticket 1842",
+    "body": "I am checking in on ticket 1842. Do you have an update from the engineering team?"
+  },
+  {
+    "id": 48,
+    "category": "follow-up",
+    "subject": "Any update on our refund request?",
+    "body": "Following up on the refund request I sent Monday. I have not seen a confirmation yet."
+  },
+  {
+    "id": 49,
+    "category": "follow-up",
+    "subject": "Checking in after our demo",
+    "body": "Thank you for the demo last week. I wanted to see whether you had answers to our security questions."
+  },
+  {
+    "id": 50,
+    "category": "follow-up",
+    "subject": "Status of the migration plan",
+    "body": "As discussed, we sent the data sample yesterday. Could you let us know the next step and expected review date?"
+  }
+]
